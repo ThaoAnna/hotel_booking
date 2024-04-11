@@ -1,4 +1,9 @@
-.hotel-photo {
+.photo-hotel {
     padding-left: 0px;
-    
+    width: 200px;
+    height: 200px;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
