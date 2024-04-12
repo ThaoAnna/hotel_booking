@@ -7,3 +7,16 @@
 html {
     scroll-behavior: smooth;
   }
+body{
+    background: #e0e0e0;
+}
+.wrapper{
+    background: rgb(132,136,139);
+    width: 40%;
+}
+.body-header {
+    background: rosybrown;
+  }
+  .body-footer {
+    background: rosybrown;
+  }

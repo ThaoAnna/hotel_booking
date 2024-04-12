@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail</title>
-    <a href="login.html">Login</a>
     <link rel="stylesheet" href="styles/detail.css">
 </head>
+
 <body>
-    <img src="/assests/images/logo.png" alt="logo" width="70px" height="70px">
-    <div>
-        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" style="width: 200px; height: 200px;">
+    <div class="body-header">
+        <img src="/assests/images/logo.png" alt="logo" width="50px" height="50px">
+        <a href="login.html">Login</a>
+    </div>
+    <div class="body-main">
+        <span>
+            <img class="photo-detail"
+                src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+        </span>
         <div class="user-infor">
             <p>Adults: <input type="number"></p>
             <p>Name: <input type="text"></p>
@@ -24,24 +31,34 @@
             </p>
             <span>Total </span>
             <input type="number">
+            <button href="payment.html">Book Now</button>
         </div>
-        <button href="payment.html">Book Now</button>
-        <p><b href="detail.html">Radisson Blu Hotel</b></p>
-        <p>RATING</p>
-        <p>5 stars</p>
-        <p>AMENITIES</p>
-        <div class="amenities">
-            <li>Room service</li>
-            <li>Restaurant</li>
-            <li>Business center</li>
-            <li>Fitness center</li>
-            <li>Pool</li>
+        <div class="hotel-infor">
+            <p><b href="detail.html">Radisson Blu Hotel</b></p>
+            <p>RATING</p>
+            <p>5 stars</p>
+            <p>AMENITIES</p>
+            <div class="amenities">
+                <li>Room service</li>
+                <li>Restaurant</li>
+                <li>Business center</li>
+                <li>Fitness center</li>
+                <li>Pool</li>
+            </div>
+            <p></p>
+            <b>DESCRIPTION</b>
+            <p>Lorem iosum dolor sit anet consectetur adpisicing elit. deliniti, illi, totam coluptatibus</p>
         </div>
-        <p></p>
-        <b>DESCRIPTION</b>
-        <p>Lorem iosum dolor sit anet consectetur adpisicing elit. deliniti, illi, totam coluptatibus</p>
-    <p></p>
-    <a href="contact.html">Contact Us</a>
     </div>
+
+        <div class="body-footer">
+            <p> <a href="contact.html">Contact Us</a> </p>
+            <div>
+                <img src="assests/images/facebook.png" alt="facebook" width="30" height="30">
+                <img src="assests/images/instagram.png" alt="instagram" width="30" height="30">
+                <img src="assests/images/twitter.png" alt="twitter" width="30" height="30">
+            </div>
+        </div>
 </body>
+
 </html>

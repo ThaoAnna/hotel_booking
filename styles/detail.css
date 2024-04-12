@@ -1,8 +1,27 @@
-.user-infor p {
-    margin: 0;
-    padding; 0;
-}
+
 .amenities li {
     padding-left: 20px;
 
+}
+body {
+    background: #e0e0e0;
+}
+.body-header {
+    background: rosybrown;
+  }
+.body-footer {
+    background: rosybrown;
+  }
+.photo-detail {
+    height: 370px;
+    width: 370px;
+    
+
+}
+.user-infor p {
+    margin: 0;
+    padding: 0;
+}
+.body-main{
+    padding-left: 30px
 }

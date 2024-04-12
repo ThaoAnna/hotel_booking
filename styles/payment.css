@@ -3,3 +3,26 @@
     width: 150px;
     box-sizing: border-box;
   }
+  .body-header {
+    background: rosybrown;
+  }
+  .body-footer {
+    background: rosybrown;
+  }
+  body {
+    background: #e0e0e0;
+  }
+  .main-photo {
+    background: rgb(132,136,139);
+    margin: 15px 300px 15px 300px;
+  }
+  .amount-detail {
+  width: 80%;
+  height: 80px;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 30px;
+  }
+  .guest-infor {
+    padding-left: 30px;
+  }
