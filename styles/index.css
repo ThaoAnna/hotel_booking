@@ -1,19 +1,25 @@
 .column {
-    float: center;
-    width: 100px;
-    height: 100px;
-    padding: 0 30px;
-    margin: 10px;
-    border-radius: 10px;
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  margin: 10px 30px; /* Adjust margin for spacing between columns */
+  overflow: hidden; /* Hide any overflow content (e.g., rounded corners) */
+  border-radius: 10px; /* Apply rounded corners to the column container */
   }
+
+  .column img {
+    width: 100%; /* Ensure the image fills the column container */
+    height: 100%; /* Ensure the image fills the column container */
+    object-fit: cover; /* Cover the entire space of the column with the image */
+    border-radius: 10px; /* Apply rounded corners to the image (overrides column container) */
+}
 
   /* Clear floats after image containers */
   .row {
     
-    width: 100%;
-    height: 150px;
-    padding: 0 200px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
   }
   .city {
     width: 150px;
@@ -27,6 +33,8 @@
   }
   body{
     background-color: #e0e0e0;
+    padding-top: 30px;
+    padding-bottom: 60px
   }
   .search-bar {
     background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
@@ -35,23 +43,47 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+    position: relative;
+  }
+  .search-input {
+    height: 25px;
+    width: 270px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 125px);
   }
   .body-header {
     background: rosybrown;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  .login {
+    position: fixed;
+    top: 10px;
+    right: 50px;
+  }
+  .view-more {
+    text-align: center;
   }
   .body-footer {
     background: rosybrown;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
-
-
-  .view-more{
-    margin-left: auto;
-    margin-right: auto;
+.contact-us {
+    padding-left: 20px;
+    padding-top: 5px;
+    float: left;
   }
-  .contact-us {
-    padding-left: 0
-  }
-  .logo-bottom {
-    padding-right: 0;
+.logo-bottom {
+    padding-right: 10px;
+    float: right;
+    margin: 0;
   }

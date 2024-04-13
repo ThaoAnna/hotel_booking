@@ -9,14 +9,46 @@ html {
   }
 body{
     background: #e0e0e0;
+    padding-top: 70px;
 }
 .wrapper{
     background: rgb(132,136,139);
     width: 40%;
+    margin: 30px 30px 30px 50px;
+    display: inline-block;
 }
 .body-header {
     background: rosybrown;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
   }
-  .body-footer {
-    background: rosybrown;
-  }
+.login {
+  position: fixed;
+  top: 10px;
+  right: 50px;
+}
+.list-map {
+  text-align: center;
+}
+.list-map a+a {
+  padding-left: 30px;
+}
+.body-footer {
+  background: rosybrown;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.contact-us {
+  padding-left: 20px;
+  padding-top: 5px;
+  float: left;
+}
+.logo-bottom {
+  padding-right: 10px;
+  float: right;
+  margin: 0;
+}
