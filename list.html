@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List</title>
     <link rel="stylesheet" href="styles/list.css" >
+    <script src="scripts/list.js"></script>
 </head>
 <body>
     <div class="body-header">
@@ -15,28 +16,34 @@
             <a href="#listview">List View</a>
             <a href="#mapview">Map View</a>
     </div>
-    <dl>
+    <div>
         <div class="wrapper">
-            <dt id="listview"><img class="photo-hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"></dt>
-            <b href="detail.html">Radisson Blu Hotel</b>
-            <p>5.0 stars</p>
+            <img class="photo-hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+            <div class="detail-hotel">
+                <p><b href="detail.html">Radisson Blu Hotel</b></p>
+                <p>5.0 stars</p>
+                <p>New Delhi</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <img class="photo-hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg">
+            <div class="detail-hotel">
+                <p><b>The Lalit New Delhi</b></p>
+                <p>4.5 stars</p>
+                <p>New Delhi</p>
+            </div>
+        </div>
+        <div class="wrapper">
+        <img class="photo-hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg">
+        <div class="detail-hotel">
+            <p><b>Taj Palace</b></p>
+            <p>4.0 stars</p>
             <p>New Delhi</p>
         </div>
-        <div class="wrapper">
-            <dt><img class="photo-hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg"></dt>
-            <b>The Lalit New Delhi</b>
-            <p>4.5 stars</p>
-            <p>New Delhi</p>
         </div>
-        <div class="wrapper">
-        <dt><img class="photo-hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg"></dt>
-        <b>Taj Palace</b>
-        <p>4.0 stars</p>
-        <p>New Delhi</p>
-        </div>
-    </dl>
+    </div>
     <div class="body-footer">
-        <a href="contact.html">Contact Us</a>
+        <a class="contact-us" href="contact.html">Contact Us</a>
         <span class="logo-bottom">
             <img src="assests/images/facebook.png" alt="facebook" width="30" height="30">
             <img src="assests/images/instagram.png" alt="instagram" width="30" height="30">

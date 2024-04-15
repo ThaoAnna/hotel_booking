@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment</title>
     <link rel="stylesheet" href="styles/payment.css">
+    <script src="scripts/payment.js"></script>
 </head>
 <body>
     <div class="body-header">
@@ -12,27 +13,30 @@
         <a class="login" href="login.html">Login</a>
     </div>
     <div class="main-photo">
-        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" style="width: 300px; height: 300px;">
-        <h1><b>Radisson Blu Hotel</b></h1>
-        <p>#38 of 1289 hotels in New Delhi</p>
-        <p>Notional Highway 8, New Delhi 110017 India</p>
+        <img class="hotel-photo" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+        <div class="hotel-infor">
+            <h1><b>Radisson Blu Hotel</b></h1>
+            <p>#38 of 1289 hotels in New Delhi</p>
+            <p>Notional Highway 8, New Delhi 110017 India</p>
+        </div>
     </div>
-    <div class="guest-infor">
-        <p><b>Name: </b> John Doe</p>
-        <p><b>Number of Adult: </b> 2</p>
-        <p><b>Check-in Date: </b> 06/06/2024</p>
-        <p><b>Check-out Date: </b> 16/06/2024</p>
-    </div>
-    <div class="amount-detail">
-        <p><b>Tariff Breakdown: </b> Rs. 1000 x 2 Adults x 5 Nihgts</p>
-        <p><b>Total Amount: </b> Rs. 10000</p>
-    </div>
-    <div>
-        <p></p>
-        <b><a href="payment.html">Pay Now</a></b>
-        <p></p>
-        <a href="contact.html">Contact Us</a>
-    </div>
+    <table class="infor-detail">
+        <tr>
+            <th class="guest-infor">
+                <p><b>Name: </b> John Doe</p>
+                <p><b>Number of Adult: </b> 2</p>
+                <p><b>Check-in Date: </b> 06/06/2024</p>
+                <p><b>Check-out Date: </b> 16/06/2024</p>
+            </th>
+            <th class="amount">
+                <p><b>Tariff Breakdown: </b> Rs. 1000 x 2 Adults x 5 Nihgts</p>
+                <p><b>Total Amount: </b> Rs. 10000</p>
+            </th>
+            <th>
+                <b><a href="payment.html">Pay Now</a></b>
+            </th>
+        </tr>
+    </table>
     <div class="body-footer">
         <a class="contact-us" href="contact.html">Contact Us</a>
         <span class="logo-bottom">
